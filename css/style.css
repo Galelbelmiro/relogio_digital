@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(360deg, rgb(0, 115, 255), rgb(69, 19, 113));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgb(0, 0, 0,alpha);
+}
+
+.relogio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 170px;
+    color: #fff;
+    background: rgba(5, 5, 5, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.relogio span.tempo{
+    font-size: 18px;
+}
